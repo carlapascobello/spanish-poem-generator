@@ -15,23 +15,27 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Spanish poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Spanish poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e. Ocean, Cheek, or Banana</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
-        This project was coded by Carla Pascobello and is
+        This project was coded by
+        <a href="https://github.com/carlapascobello">Carla Pascobello</a> and is
         <a
           href="https://github.com/carlapascobello/spanish-poem-generator"
           target="_blank"
